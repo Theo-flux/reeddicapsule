@@ -1,10 +1,11 @@
 import React from "react";
+import Hero from "../components/HomeComponents/Hero";
 import Layout from "../containers/Layout"
 
 function Home(){
   return(
     <Layout>
-      <h1>Home Page!</h1>
+      <Hero />
     </Layout>
   )
 }
