@@ -2,7 +2,7 @@ import React, { Fragment } from 'react'
 import { Helmet } from 'react-helmet'
 import { Navbar, Footer } from '../components'
 
-function Layout({ children }){
+export default function Layout({ children }){
     return(
         <Fragment>
             <Helmet>
@@ -17,5 +17,3 @@ function Layout({ children }){
         </Fragment>
     )
 }
-
-export default Layout

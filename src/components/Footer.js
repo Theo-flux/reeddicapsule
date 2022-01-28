@@ -4,10 +4,10 @@ import '../assets/css/reeddi.css'
 export default function Footer() {
 
   return(
-    <footer className='px-4 py-12 md:px-8'>
-      <div className='flex flex-col flex-wrap gap-10 md:flex-row gap-x-28'>
+    <footer className='w-11/12 mx-auto'>
+      <div className='flex flex-col flex-wrap gap-10 md:flex-row gap-x-20'>
         
-        <div className='bg-white flex flex-col gap-y-4 max-w-[350px] lg:gap-y-4'>
+        <div className='bg-white flex flex-col gap-y-4 max-w-[380px] lg:gap-y-4'>
           <div>
             <img src='/Reeddi.png' alt='reeddi' />
           </div>
