@@ -1,10 +1,15 @@
 import React from "react";
+import ClimateTech from "../components/HomeComponents/ClimateTech";
+import Hero from "../components/HomeComponents/Hero";
+import SupportedBy from "../components/HomeComponents/SupportedBy";
 import Layout from "../containers/Layout"
 
 function Home(){
   return(
     <Layout>
-      <h1>Home Page!</h1>
+      <Hero />
+      <SupportedBy />
+      <ClimateTech />
     </Layout>
   )
 }

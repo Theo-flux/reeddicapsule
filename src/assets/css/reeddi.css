@@ -1,5 +1,44 @@
+/* Reeddi Default Settings */
+:root {
+  /*Default  Colors */
+  --color-cstm-grey: #5C5757;
+
+  --color-cstm-green: #128324;
+
+  --color-cstm-black: #051d29;
+
+  --color-cstm-lime: #04d419;
+
+  --color-cstm-olive: #8e8635;
+
+}
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  @font-face {
+    font-family: matter;
+    font-weight: 300;
+    src: url("../fonts/matter/Matter-Light.woff") format("woff");
+  }@font-face {
+    font-family: matter;
+    font-weight: 400;
+    src: url("../fonts/matter/Matter-Regular.woff") format("woff");
+  }@font-face {
+    font-family: matter;
+    font-weight: 500;
+    src: url("../fonts/matter/Matter-Medium.woff") format("woff");
+  }@font-face {
+    font-family: matter;
+    font-weight: 600;
+    src: url("../fonts/matter/Matter-SemiBold.woff") format("woff");
+  }@font-face {
+    font-family: matter;
+    font-weight: 700;
+    src: url("../fonts/matter/Matter-Bold.woff") format("woff");
+  }
+}
 
 @import "./main.css";
