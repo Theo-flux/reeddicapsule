@@ -21,13 +21,13 @@ export default function Hero() {
           <img className="w-full" alt="" src="home/map1.png" />
           <div className="absolute top-1/3 left-56">
             <Pin
-              bg="bg-reeddibrown"
+              bg="bg-cstm-olive"
               text="Reducing Greenhouse gas emissions from the usage of rented items and equipment. "
             />
           </div>
           <div className="absolute bottom-1/3 right-1/2">
             <Pin
-              bg="bg-reedditeal"
+              bg="bg-cstm-green"
               text="Providing clean energy for homes and business in Africa"
             />
           </div>
