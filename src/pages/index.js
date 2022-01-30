@@ -4,7 +4,7 @@ import Hero from "../components/HomeComponents/Hero";
 import SupportedBy from "../components/HomeComponents/SupportedBy";
 import Layout from "../containers/Layout"
 
-function Home(){
+export default function Home(){
   return(
     <Layout>
       <Hero />
@@ -13,5 +13,3 @@ function Home(){
     </Layout>
   )
 }
-
-export default Home

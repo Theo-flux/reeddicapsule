@@ -1,14 +1,16 @@
 import React from 'react';
-import { Newsletter } from '../components';
-import { Jumbotron, Terms } from '../components/TermsOfUse';
+import { Newsletter, Jumbotron } from '../components';
+import { Terms } from '../components/TermsOfUse';
 import Layout from '../containers/Layout'
 
-export default function termsofuse() {
+export default function Termsofuse() {
   return(
       <Layout>
-          <Jumbotron/>
+          <Jumbotron btn='Terms' title='Terms of Use' subTitle='Here are the terms of use for Reeddi'/>
           <Terms/>
           <Newsletter/>
       </Layout>
   );
 }
+
+
