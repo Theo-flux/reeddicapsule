@@ -1,11 +1,16 @@
 import React from 'react';
-import { Research } from '../components'
+import { Contact, Newsletter } from '../components';
+import { Jumbotron, Magazine, ResearchPapers } from '../components/ResearchComponents';
 import Layout from '../containers/Layout'
 
 export default function ResearchPage() {
   return(
       <Layout>
-          <Research/>
+          <Jumbotron/>
+          <Magazine/>
+          <ResearchPapers/>
+          <Newsletter/>
+          <Contact/>
       </Layout>
   );
 }
