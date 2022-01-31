@@ -3,7 +3,7 @@ import React from 'react';
 export default function Signup() {
   return(
       <form className='w-full md:w-96 '>
-        <div className='w-full flex flex-col gap-y-8 justify-center items-center md:flex-row justify-start items-start'>
+        <div className='w-full flex flex-col gap-y-8 justify-center items-center font-matter md:flex-row justify-start items-start'>
           <input 
             type="email" 
             placeholder="Enter your mail" 

@@ -7,7 +7,7 @@ export default function Footer() {
   return(
     <footer className='py-16'>
       <div className='w-11/12 mx-auto flex flex-col gap-y-16'>
-        <div className='flex flex-col flex-wrap gap-10 md:flex-row gap-x-20'>
+        <div className='flex flex-col flex-wrap gap-10 font-matter md:flex-row gap-x-20'>
           
           <div className='bg-white flex flex-col gap-y-4 max-w-[380px] lg:gap-y-4'>
             <div>
@@ -74,7 +74,7 @@ export default function Footer() {
 
         </div>
 
-        <div className='hidden md:flex flex-row justify-between items center gap-x-20 border-y border-cstm-green py-2'>
+        <div className='hidden md:flex flex-row font-matter justify-between items center gap-x-20 border-y border-cstm-green py-2'>
           <p className='text-sm'>2021 Reedd Inc. All Rights Reserved</p>
 
           <div className='flex justify-between gap-x-4 text-sm'>

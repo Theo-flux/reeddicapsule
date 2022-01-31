@@ -4,7 +4,7 @@ export default function Terms() {
   return( 
       <section>
         <div className='w-11/12 mx-auto my-16'>
-            <div className='flex flex-col justify-center items-center gap-y-16'>
+            <div className='flex flex-col justify-center items-center gap-y-16 font-matter'>
               <div className='w-11/12 text-sm text-cstm-grey flex flex-col md:max-w-[60%] text-base gap-y-4'>
                 <p>
                 Welcome to Reeddi Technologies limited, a platform that bridges the accessibility gap through sustainable and innovative solutions. 

@@ -11,7 +11,7 @@ export default function Magazine() {
                         <img src='/magazine.png' alt='magazine' />
                     </div>
 
-                    <div className='max-w-[450px] w-[80%]  flex flex-col gap-y-4 justify-center items-center md:gap-y-8 md:justify-start md:items-start'>
+                    <div className='max-w-[450px] w-[80%] font-matter flex flex-col gap-y-4 justify-center items-center md:gap-y-8 md:justify-start md:items-start'>
                         <p className='text-2xl text-center font-medium text-[#fff] md:text-3xl md:text-left'>Awarded TIME Magazine Best Invention of the Year 2021.</p>
                         <Link to='./' className='text-sm text-[#fff]'>Read more</Link>
                     </div>
