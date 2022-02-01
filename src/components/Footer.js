@@ -5,8 +5,8 @@ import '../assets/css/reeddi.css'
 export default function Footer() {
 
   return(
-    <footer className='py-16'>
-      <div className='w-11/12 mx-auto flex flex-col gap-y-16'>
+    <footer>
+      <div className='w-11/12 mx-auto my-16 flex flex-col gap-y-16'>
         <div className='flex flex-col flex-wrap gap-10 font-matter md:flex-row gap-x-20'>
           
           <div className='bg-white flex flex-col gap-y-4 max-w-[380px] lg:gap-y-4'>
