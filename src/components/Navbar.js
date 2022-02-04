@@ -1,5 +1,5 @@
-import { Link } from 'gatsby';
 import React, {useState} from 'react';
+import { Link } from 'gatsby';
 import { useBreakpoint } from 'gatsby-plugin-breakpoints';
 
 
@@ -32,7 +32,7 @@ export default function Navbar() {
           </div>
 
           <div className='md:hidden' onClick={handleToggle}>
-            <img src={isOpen ? `/close.svg`:`/menu.svg`} alt='menu'/>
+            <img src={isOpen ? `/icons/close.svg`:`/icons/menu.svg`} alt='menu'/>
           </div>
         </div>
       </nav>
