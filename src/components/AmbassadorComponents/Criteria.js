@@ -27,7 +27,7 @@ const criteria = [
 export default function Criteria() {
   return(
       <section>
-        <div className='w-11/12 mx-auto my-16'>
+        <div className='w-11/12 mx-auto my-16 max-w-7xl'>
             <div className='flex flex-row-reverse justify-between items-start'>
                 <div className='flex flex-col gap-y-8 md:max-w-[40%]'>
                     {criteria.map((criterion) => {

@@ -11,7 +11,7 @@ export default function Signup() {
             style={{ boxShadow: `rgba(0, 0, 0, 0.1) 0px 10px 15px -3px, rgba(0, 0, 0, 0.05) 0px 4px 6px -2px`}}
 
           />
-          <button className='bg-cstm-green text-[#fff] text-sm py-4 font-medium w-full rounded md:w-[40%] text-xs py-4 px-8 md:rounded-none'>Sign me up</button>
+          <button className='bg-cstm-green text-[#fff] text-sm py-4 font-medium w-full rounded md:w-[40%] text-xs py-4 px-8 hover:shadow-xl md:rounded-none'>Sign me up</button>
         </div>
       </form>
     );

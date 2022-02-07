@@ -6,8 +6,8 @@ export default function Footer() {
 
   return(
     <footer>
-      <div className='w-11/12 mx-auto my-16 flex flex-col gap-y-16'>
-        <div className='flex flex-col flex-wrap gap-10 font-matter md:flex-row gap-x-20'>
+      <div className='w-11/12 mx-auto my-16 flex flex-col gap-y-16 max-w-7xl'>
+        <div className='flex flex-col flex-wrap gap-10 font-matter md:flex-row justify-between gap-x-20'>
           
           <div className='bg-white flex flex-col gap-y-4 max-w-[380px] lg:gap-y-4'>
             <div>

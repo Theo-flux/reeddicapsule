@@ -14,7 +14,7 @@ export default function Navbar() {
   
   return(
       <nav className='relative bg-[white] z-20 sm:fixed w-full top-0 left-0' style={{ background:`linear-gradient(112.47deg, #F8FCFA -17.2%, rgba(224, 255, 227, 0.02) 114.3%)`}}>
-        <div className='px-1.5 py-4 flex justify-between items-center md:justify-start w-11/12 mx-auto'>
+        <div className='px-1.5 py-4 flex justify-between items-center md:justify-start w-11/12 mx-auto max-w-7xl'>
           <div className='md:min-w-[450px]'><img src='/Reeddi.png' alt='reeddi-logo'/></div>
 
           <div className='absolute hidden z-10 top-12 bg-[#fff] left-0 w-full flex flex-col justify-start items-start gap-y-4 p-4 md:flex-row justify-between items-center gap-x-8 md:static md:w-fit md:p-0'>
