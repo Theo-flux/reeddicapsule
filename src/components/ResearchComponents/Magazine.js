@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 export default function Magazine() {
   return(
     <section>
-        <div className='w-11/12 m-auto my-16'>
+        <div className='w-11/12 m-auto my-16 max-w-7xl'>
             <div className='bg-cover bg-center rounded-md bg-clip' style={{ backgroundImage:`url(/bg-magazine.png)` }}>
                 <div className='flex flex-col-reverse gap-y-8 md:flex-row py-4 justify-center items-center gap-x-8'>
                     <div className=''>

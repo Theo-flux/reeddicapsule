@@ -30,7 +30,7 @@ const steps = [
 export default function Steps(){
     return(
         <section className='bg-cstm-green md:bg-transparent' style={{backgroundImage: `url(/ambassador/bg-steps.png)`}}>
-            <div className='w-11/12 mx-auto my-16'>
+            <div className='w-11/12 mx-auto my-16 max-w-7xl'>
                 <div className='flex flex-col gap-y-4 py-8'>
                     <span className='text-sm w-fit rounded text-cstm-green font-medium py-2 px-2' style={{ boxShadow: `rgba(0, 0, 0, 0.1) 0px 1px 3px 0px, rgba(0, 0, 0, 0.06) 0px 1px 2px 0px`, background: `linear-gradient(112.47deg, #F8FCFA -17.2%, rgba(206, 236, 222, 0) 114.3%)`}}>3 simple steps</span>
                     <div className='flex flex-col gap-y-16 sm:flex-row md:flex-row justify-between items-start'>
