@@ -1,0 +1,5 @@
+export { default as ReeddiGoals } from './ReeddiGoals'
+export { default as Jumbotron } from './Jumbotron'
+export { default as Stats } from './Stats'
+export { default as Awards } from './Awards'
+export { default as Info } from './Info'
