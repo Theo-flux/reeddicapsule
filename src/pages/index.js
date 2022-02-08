@@ -10,6 +10,6 @@ export default function Home(){
       <Hero />
       <SupportedBy />
       <ClimateTech />
-    </Layout>
+     </Layout>
   )
 }
