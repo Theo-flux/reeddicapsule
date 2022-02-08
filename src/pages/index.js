@@ -7,7 +7,7 @@ import Layout from "../containers/Layout"
 export default function Home(){
   return(
     <Layout>
-      {/* <Hero /> */}
+      <Hero />
       <SupportedBy />
       <ClimateTech />
     </Layout>
