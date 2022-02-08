@@ -45,7 +45,7 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  const [mobileOpen, setMobileOpen] = useState(true);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <div
