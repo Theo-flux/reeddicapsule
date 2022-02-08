@@ -10,8 +10,7 @@ module.exports = {
         name: 'Reeddi',
         short_name: 'Reeddi',
         start_url: '/',
-        icon: 'src/images/icon.png',
-        title: 'Reeddi'
+        icon: 'src/images/icon.png'
       },
     },
     `gatsby-plugin-postcss`,

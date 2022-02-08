@@ -2,7 +2,7 @@ import React from 'react';
 
 export default function ArticleCard({ feature }) {
   return(
-    <div className='flex w-full min-h-fit flex-col rounded overflow-hidden bg-[#fff] md:max-h-[500px]' style={{boxShadow: `0px 2px 5px 0px rgba(8, 160, 92, 0.15)`}}>
+    <div className='flex w-full min-h-fit flex-col rounded overflow-hidden bg-[#fff] md:max-h-[500px] shadow-md'>
 
       <div className='flex font-matter flex-col p-4 gap-y-8 h-[60%]'>
         <div className='flex flex-row justify-between items-center text-xs text-cstm-grey font-medium'>
@@ -10,7 +10,7 @@ export default function ArticleCard({ feature }) {
           <p>{ feature.date }</p>
         </div>
 
-        <div className='text-lg font-matter font-bold md:text-base'>
+        <div className='text-lg font-matter font-medium md:text-base'>
           <h4>{ feature.caption }</h4>
         </div>
       </div>
