@@ -2,6 +2,7 @@ import React from "react";
 import ClimateTech from "../components/HomeComponents/ClimateTech";
 import Hero from "../components/HomeComponents/Hero";
 import SupportedBy from "../components/HomeComponents/SupportedBy";
+import TimeMagComponent from "../components/HomeComponents/TimeMagComponent";
 import WorldClassInnovation from "../components/WorldClassInnovation";
 import Layout from "../containers/Layout"
 
@@ -12,6 +13,7 @@ export default function Home(){
       <SupportedBy />
       <ClimateTech />
       <WorldClassInnovation />
+      <TimeMagComponent />
      </Layout>
   )
 }
