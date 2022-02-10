@@ -20,7 +20,7 @@ export default function WorldClassInnovation() {
                 monitors, TV etc.
               </p>
             </div>
-            <a className="text-cstm-green mt-4 block">Learn more</a>
+            <a className="text-cstm-green font-bold mt-4 block">Learn more</a>
           </div>
           <div className="max-w-[520px] py-8 px-8 bg-[white] shadow-sm rounded-lg my-20">
             <div>

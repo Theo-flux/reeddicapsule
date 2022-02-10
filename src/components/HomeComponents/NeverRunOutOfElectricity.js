@@ -16,7 +16,9 @@ export default function NeverRunOutOfElectricity() {
           </p>
         </div>
 
-        <a className="text-cstm-green pt-6 lg:pt-10">Get the Reeddi capsule</a>
+        <a className="text-cstm-green pt-6 font-bold lg:pt-10">
+          Get the Reeddi capsule
+        </a>
       </div>
       <div className="w-full mt-10 md:mt-0 md:w-1/2 flex items-center justify-center md:justify-start">
         <img src="/home/timeMag2021.png" className="w-32 mr-16 my-8 self-end" />
@@ -28,8 +30,8 @@ export default function NeverRunOutOfElectricity() {
           <div className="absolute -left-12 bottom-4 z-20">
             <div className="flex justify-evenly max-w-max bg-[white] shadow-cstm-2xl rounded-md my-10">
               <p className="my-4 mx-6 text-xs">
-                Save <span className="text-cstm-green font-semibold">40%</span> of your
-                electricity bill
+                Save <span className="text-cstm-green font-semibold">40%</span>{" "}
+                of your electricity bill
               </p>
             </div>
             <div className="flex justify-evenly max-w-sm py-6 px-6 bg-[white] shadow-cstm-2xl rounded-md my-2">

@@ -2,6 +2,7 @@ import React from "react";
 import ClimateTech from "../components/HomeComponents/ClimateTech";
 import Hero from "../components/HomeComponents/Hero";
 import NeverRunOutOfElectricity from "../components/HomeComponents/NeverRunOutOfElectricity";
+import RentAnything from "../components/HomeComponents/RentAnything";
 import SupportedBy from "../components/HomeComponents/SupportedBy";
 import TimeMagComponent from "../components/HomeComponents/TimeMagComponent";
 import WorldClassInnovation from "../components/HomeComponents/WorldClassInnovation";
@@ -16,6 +17,7 @@ export default function Home(){
       <WorldClassInnovation />
       <TimeMagComponent />
       <NeverRunOutOfElectricity />
+      <RentAnything />
      </Layout>
   )
 }
