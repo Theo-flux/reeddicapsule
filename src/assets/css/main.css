@@ -9,3 +9,7 @@
 .cstm-good-company-gradient {
   background: linear-gradient(112.47deg, #E2F4EB -17.2%, rgba(247, 252, 250, 0.12) 114.3%);
 }
+
+.cstm-article-shadow {
+  box-shadow: 0px 1px 25.935483932495117px 0px #08A05C26;
+}
