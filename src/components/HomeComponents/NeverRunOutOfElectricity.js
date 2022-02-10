@@ -6,7 +6,7 @@ export default function NeverRunOutOfElectricity() {
     <div className="flex flex-col md:flex-row w-11/12 mx-auto py-16 md:py-32">
       <div className="w-full md:w-1/2 flex flex-col justify-center ">
         <div className="flex flex-col justify-center md:w-11/12">
-          <h2 className="font-matter text-4xl xl:text-5xl">
+          <h2 className="font-matter font-semibold text-4xl xl:text-5xl">
             Never run out of electricity!
           </h2>
           <p className="font-matter text-cstm-grey text-base pt-10 md:w-9/12">
