@@ -23,7 +23,7 @@ export default function SupportedBy() {
   return (
     <div className="flex flex-col items-center py-12">
       <p className="text-cstm-green pb-10 text-lg">Supported By</p>
-      <div className="w-11/12 flex justify-between ">
+      <div className="w-11/12 max-w-7xl flex justify-between ">
         {supportedByMap.map((e) => (
           <a key={e.name} href={e.link}>
             <img alt={e.name} src={e.logo} className="w-20 h-10" />

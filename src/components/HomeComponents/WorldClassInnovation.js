@@ -7,7 +7,7 @@ export default function WorldClassInnovation() {
       <h3 className="font-matter font-medium text-4xl mt-10">
         World-Class Innovations
       </h3>
-      <div className="w-11/12 flex">
+      <div className="w-11/12 max-w-7xl flex">
         <div className="w-1/2">
           <div className="max-w-[520px] py-8 px-8 shadow-cstm-2xl bg-[white] rounded-lg my-20">
             <div>

@@ -3,7 +3,7 @@ import Star from "../Star";
 
 export default function NeverRunOutOfElectricity() {
   return (
-    <div className="flex flex-col md:flex-row w-11/12 mx-auto py-16 md:py-32">
+    <div className="flex flex-col md:flex-row w-11/12 max-w-7xl mx-auto py-16 md:py-32">
       <div className="w-full md:w-1/2 flex flex-col justify-center ">
         <div className="flex flex-col justify-center md:w-11/12">
           <h2 className="font-matter font-semibold text-4xl xl:text-5xl">

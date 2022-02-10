@@ -5,7 +5,7 @@ import Pin from "./Pin";
 export default function Hero() {
   return (
     <div className="flex flex-col items-center justify-center cstm-bg-green-gradient pt-28">
-      <div className="w-11/12 mx-auto flex flex-col items-center ">
+      <div className="w-11/12 max-w-7xl mx-auto flex flex-col items-center ">
         <div className="py-14 max-w-4xl">
           <h1 className="text-5xl text-center font-semibold leading-tight">
             Bridging the accessibility gap through limitless & sustainable
