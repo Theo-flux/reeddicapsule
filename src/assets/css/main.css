@@ -5,3 +5,7 @@
 .cstm-tempown-gradient {
   background: linear-gradient(112.47deg, #70C79E -17.2%, #128324 114.3%);;
 }
+
+.cstm-good-company-gradient {
+  background: linear-gradient(112.47deg, #E2F4EB -17.2%, rgba(247, 252, 250, 0.12) 114.3%);
+}

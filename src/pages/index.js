@@ -1,4 +1,5 @@
 import React from "react";
+import AGoodCompany from "../components/HomeComponents/AGoodCompany";
 import ClimateTech from "../components/HomeComponents/ClimateTech";
 import Hero from "../components/HomeComponents/Hero";
 import NeverRunOutOfElectricity from "../components/HomeComponents/NeverRunOutOfElectricity";
@@ -18,6 +19,7 @@ export default function Home(){
       <TimeMagComponent />
       <NeverRunOutOfElectricity />
       <RentAnything />
+      <AGoodCompany />
      </Layout>
   )
 }
