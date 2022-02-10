@@ -4,7 +4,7 @@ import { Link } from 'gatsby';
 
 export default function Contact() {
   return(
-    <section className='w-11/12 m-auto my-20 max-w-7xl'>
+    <section className='w-11/12 m-auto mt-20 mb-32 max-w-7xl'>
         <div className="bg-none md:bg-[url('/bg-cta.svg')] bg-cover bg-center rounded-md bg-clip ">
             <div className='flex flex-col gap-y-4 py-4 font-matter md:py-20 justify-center items-center gap-y-8'>
                 <div className='max-w-[450px] w-[80%]  flex flex-col gap-y-2 justify-center items-center md:gap-y-4'>
