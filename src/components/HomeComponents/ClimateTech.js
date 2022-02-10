@@ -11,7 +11,7 @@ export default function ClimateTech() {
             Technology Company on a<br className=" hidden 2xl:block" /> mission
             to <span className="text-cstm-green">make the future</span>.
           </h2>
-          <p className="font-matter text-base pt-10 md:w-9/12">
+          <p className="font-matter text-cstm-grey text-base pt-10 md:w-9/12">
             Reeddi bridges the accessibility gap through sustainable, limitless
             innovation. Our proprietary innovations are designed as an
             energy-as-a-service solution (Hardware) coupled with an integrated

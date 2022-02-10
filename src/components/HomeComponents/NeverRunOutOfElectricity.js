@@ -9,7 +9,7 @@ export default function NeverRunOutOfElectricity() {
           <h2 className="font-matter text-4xl xl:text-5xl">
             Never run out of electricity!
           </h2>
-          <p className="font-matter text-base pt-10 md:w-9/12">
+          <p className="font-matter text-cstm-grey text-base pt-10 md:w-9/12">
             Reeddi is a climate company that seeks to bridge the gap of
             accessibility through sustainable and limitless innovation. Our
             propriety innovations are

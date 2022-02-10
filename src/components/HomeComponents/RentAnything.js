@@ -17,7 +17,7 @@ export default function RentAnything() {
             Rent Anything! <br />
             <span className="leading-tight">Anytime!</span>
           </h2>
-          <p className="font-matter text-base pt-3 md:w-9/12">
+          <p className="font-matter text-cstm-grey text-base pt-3 md:w-9/12">
             Reeddi is a climate company that seeks to bridge the gap of
             accessibility through sustainable and limitless innovation. Our
             propriety innovations are
