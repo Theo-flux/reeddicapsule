@@ -21,21 +21,21 @@ export default function AGoodCompany() {
       </div>
 
       {/* bottom */}
-      <div className="flex w-11/12 max-w-7xl flex-col md:flex-row mx-auto py-16 md:py-32">
-        <div className="w-full cstm-good-company-gradient rounded-lg px-20 xl:px-36 flex justify-between">
+      <div className="flex w-11/12 max-w-7xl flex-col md:flex-row mx-auto py-16 lg:py-32">
+        <div className="w-full cstm-good-company-gradient rounded-lg px-10 lg:px-20 xl:px-36 flex justify-between">
           <div className="flex flex-col">
-            <p className="text-sm xl:text-base text-cstm-grey mt-14">
+            <p className="text-sm xl:text-base text-cstm-grey mt-14 max-w-[250px] lg:max-w-none">
               Across our innovations, our activities, till date, have offset
             </p>
-            <p className="font-bold text-8xl">1004+</p>
+            <p className="font-bold text-5xl xl:text-8xl">1004+</p>
             <p className="text-sm xl:text-base text-cstm-grey mt-2">
               kgCO2 gas emission{" "}
             </p>
-            <img src="/home/ReeddixTempown.png" className="w-40 mt-32 mb-6" />
+            <img src="/home/ReeddixTempown.png" className="w-36 xl:w-40 mt-32 mb-6" />
           </div>
           <img
             src="/home/rotatingEarthxPhone.gif"
-            className="w-96 self-center"
+            className="w-80 lg:w-96 self-center"
           />
         </div>
       </div>

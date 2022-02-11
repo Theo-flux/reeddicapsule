@@ -3,8 +3,8 @@ import Star from "../Star";
 
 export default function NeverRunOutOfElectricity() {
   return (
-    <div className="flex flex-col md:flex-row w-11/12 max-w-7xl mx-auto py-16 md:py-32">
-      <div className="w-full md:w-1/2 flex flex-col justify-center ">
+    <div className="flex flex-col md:flex-row w-11/12 max-w-7xl mx-auto py-16 lg:py-32">
+      <div className="w-full md:w-2/6 lg:w-1/2 flex flex-col justify-center ">
         <div className="flex flex-col justify-center md:w-11/12">
           <h2 className="font-matter font-semibold text-4xl xl:text-5xl">
             Never run out of electricity!
@@ -20,7 +20,7 @@ export default function NeverRunOutOfElectricity() {
           Get the Reeddi capsule
         </a>
       </div>
-      <div className="w-full mt-10 md:mt-0 md:w-1/2 flex items-center justify-center md:justify-start">
+      <div className="w-full md:w-4/6 lg:w-1/2 mt-10 md:mt-0  flex items-center justify-center md:justify-start">
         <img src="/home/timeMag2021.png" className="w-32 mr-16 my-8 self-end" />
         <div className="relative">
           <img

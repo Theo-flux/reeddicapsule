@@ -6,8 +6,8 @@ import { features } from "../../constants";
 const featuresSlice = features.slice(0, 6);
 export default function () {
   return (
-    <section>
-      <div className="flex flex-col items-center justify-center cstm-bg-green-gradient pt-16">
+    <section className="flex flex-col">
+      <div className="flex flex-col items-center justify-center cstm-bg-green-gradient pt-8 lg:pt-16">
         <h3 className="font-matter font-medium text-4xl mt-10">
           Reeddi in the Media
         </h3>

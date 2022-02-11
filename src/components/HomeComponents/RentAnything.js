@@ -2,12 +2,12 @@ import React from "react";
 
 export default function RentAnything() {
   return (
-    <div className="flex flex-col md:flex-row w-full py-16 md:py-32">
+    <div className="flex flex-col md:flex-row w-full py-16 lg:py-32">
       <div className="w-full mt-10 md:mt-0 md:w-1/2 flex justify-start">
         <div className="flex w-11/12 justify-center cstm-tempown-gradient">
           <img
             src="/home/tempown.png"
-            className="h-[440px] xl:h-[480px]  my-10"
+            className="h-64 lg:h-[480px]  my-10"
           />
         </div>
       </div>
