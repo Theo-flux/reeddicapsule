@@ -1,8 +1,8 @@
-import React from "react";
+import React, { useState } from "react";
 import Pin from "./Pin";
 
-
 export default function Hero() {
+  const [imageLoad, setimageLoad] = useState(false);
   return (
     <div className="flex flex-col items-center justify-center cstm-bg-green-gradient pt-28">
       <div className="w-11/12 max-w-7xl mx-auto flex flex-col items-center ">
@@ -17,19 +17,28 @@ export default function Hero() {
           </p>
         </div>
         <div className="py-12 md:py-24 relative">
-          <img className="w-full" alt="" src="home/map1.jpg" />
-          <div className="absolute top-[31.5%] left-[21%]">
-            <Pin
-              bg="bg-cstm-olive"
-              text="Reducing Greenhouse gas emissions from the usage of rented items and equipment. "
-            />
-          </div>
-          <div className="absolute bottom-[50%] left-[43%]">
-            <Pin
-              bg="bg-cstm-green"
-              text="Providing clean energy for homes and business in Africa"
-            />
-          </div>
+          <img
+            className="w-full"
+            alt=""
+            src="home/map1.jpg"
+            onLoad={() => setimageLoad(true)}
+          />
+          {imageLoad && (
+            <>
+              <div className="absolute top-[31.5%] left-[21%]">
+                <Pin
+                  bg="bg-cstm-olive"
+                  text="Reducing Greenhouse gas emissions from the usage of rented items and equipment. "
+                />
+              </div>
+              <div className="absolute bottom-[50%] left-[43%]">
+                <Pin
+                  bg="bg-cstm-green"
+                  text="Providing clean energy for homes and business in Africa"
+                />
+              </div>
+            </>
+          )}
         </div>
       </div>
     </div>
