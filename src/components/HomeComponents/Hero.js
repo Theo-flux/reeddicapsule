@@ -17,7 +17,7 @@ export default function Hero() {
           </p>
         </div>
         <div className="py-12 md:py-24 relative">
-          <img className="w-full" alt="" src="home/map1.png" />
+          <img className="w-full" alt="" src="home/map1.jpg" />
           <div className="absolute top-[31.5%] left-[21%]">
             <Pin
               bg="bg-cstm-olive"

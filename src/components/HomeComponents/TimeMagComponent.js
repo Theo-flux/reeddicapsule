@@ -8,7 +8,7 @@ export default function TimeMagComponent() {
       {size.width > 768 ? (
         <img src="/home/TimeMagAward.jpg" className="rounded-lg" />
       ) : (
-        <img src="/home/TimeMagAwardMobile.png" className="rounded-lg" />
+        <img src="/home/TimeMagAwardMobile.jpg" className="rounded-lg" />
       )}
     </div>
   );

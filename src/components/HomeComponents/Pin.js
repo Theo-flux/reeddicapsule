@@ -11,7 +11,7 @@ export default function Pin ({ bg, text }) {
           className={`relative inline-flex rounded-full h-1.5 md:h-3 w-1.5 md:w-3 ${bg}`}
         ></span>
       </span>
-      <p className="max-w-[300px] hidden md:absolute top-1 left-3.5 text-sm bg-[white] px-3 py-3 w-96 drop-shadow-lg rounded-md">
+      <p className="max-w-[300px] hidden md:block absolute top-1 left-3.5 text-sm bg-[white] px-3 py-3 w-96 drop-shadow-lg rounded-md">
         {text}
       </p>
     </>

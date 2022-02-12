@@ -27,7 +27,7 @@ export default function NeverRunOutOfElectricity() {
         />
         <div className="relative">
           <img
-            src="/home/personWithLaptop.png"
+            src="/home/personWithLaptop.jpg"
             className="rounded-md h-80 xl:h-[480px]  mr-6 lg:mr-10 md:border-t-4 md:border-r-8 rounded-tl-xl rounded-br-2xl rounded-tr-[3.6em] border-cstm-green"
           />
           <div className="absolute mb-2 md:mb-0 md:-left-12 -bottom-24 md:bottom-4 z-20">

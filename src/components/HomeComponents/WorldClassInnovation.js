@@ -42,12 +42,12 @@ export default function WorldClassInnovation() {
         <div className="md:w-1/2 relative flex justify-end lg:justify-center items-center">
           <div className="flex">
             <img
-              src="/home/reeddiHand.png"
+              src="/home/reeddiHand.jpg"
               className="rounded-md h-64 md:h-72 lg:h-96 xl:h-[480px] mt-8 -mr-16 z-10"
             />
             <div className="rounded-md flex items-end bg-[#9efad1] pt- pl-10 pr-5">
               <img
-                src="/home/girlBagReeddi.png"
+                src="/home/girlBagReeddi.jpg"
                 className="h-64 md:h-72 lg:h-96  xl:h-[480px]"
               />
             </div>
