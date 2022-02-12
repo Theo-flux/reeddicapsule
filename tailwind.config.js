@@ -23,7 +23,8 @@ module.exports = {
         matter: ["Matter", ...defaultTheme.fontFamily.serif],
       },
       boxShadow: {
-        "cstm-2xl": "0 5px 15px -4px rgba(8,160,92,0.95)",
+        "cstm-2xl":
+          "box-shadow: 0px 17.29032325744629px 25.935483932495117px 0px #08A05C26",
       },
     },
   },
