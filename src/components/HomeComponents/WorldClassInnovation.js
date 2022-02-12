@@ -3,12 +3,13 @@ import Star from "../Star";
 
 export default function WorldClassInnovation() {
   return (
-    <div className="flex flex-col items-center justify-center cstm-bg-green-gradient pt-16">
-      <h3 className="font-matter font-medium text-4xl mt-10">
-        World-Class Innovations
+    // pb-8 md:pb-0 added for the absolute below with -bottom
+    <div className="flex flex-col items-center justify-center cstm-bg-green-gradient pt-16 pb-8 md:pb-0">
+      <h3 className="font-matter font-medium text-2xl md:text-4xl mt-10">
+        World-Class Innovation
       </h3>
-      <div className="w-11/12 max-w-7xl flex">
-        <div className="w-1/2">
+      <div className="w-11/12 max-w-7xl flex flex-col md:flex-row">
+        <div className="md:w-1/2">
           <div className="max-w-[400px] lg:max-w-[520px] py-6 lg:py-8 px-4 lg:px-8 shadow-cstm-2xl bg-[white] rounded-lg my-20">
             <div>
               <h2 className="text-xl lg:text-3xl font-semibold">
@@ -24,7 +25,7 @@ export default function WorldClassInnovation() {
             </div>
             <a className="text-cstm-green font-bold mt-4 block">Learn more</a>
           </div>
-          <div className="max-w-[400px] lg:max-w-[520px] py-6 lg:py-8 px-4 lg:px-8 bg-[white] shadow-sm rounded-lg my-20">
+          <div className="hidden md:block max-w-[400px] lg:max-w-[520px] py-6 lg:py-8 px-4 lg:px-8 bg-[white] shadow-sm rounded-lg my-20">
             <div>
               <h2 className="text-xl lg:text-3xl font-semibold">
                 Rental Marketplace
@@ -38,7 +39,7 @@ export default function WorldClassInnovation() {
             <a className="text-cstm-green mt-4 block">Learn more</a>
           </div>
         </div>
-        <div className="w-1/2 relative flex justify-end lg:justify-center items-center">
+        <div className="md:w-1/2 relative flex justify-end lg:justify-center items-center">
           <div className="flex">
             <img
               src="/home/reeddiHand.png"
@@ -50,7 +51,7 @@ export default function WorldClassInnovation() {
                 className="h-64 md:h-72 lg:h-96  xl:h-[480px]"
               />
             </div>
-            <div className="absolute left-5 xl:left-0 bottom-5 lg:bottom-0 z-20 max-w-[300px] lg:max-w-sm py-3 lg:py-6 px-4 lg:px-8 bg-[white] shadow-cstm-2xl rounded-lg my-20">
+            <div className="absolute left-0 md:left-5 xl:left-0 -bottom-4 md:bottom-5 lg:bottom-0 z-20 max-w-[280px] md:max-w-[300px] lg:max-w-sm py-3 lg:py-6 px-4 lg:px-8 bg-[white] shadow-cstm-2xl rounded-lg my-0 md:my-20">
               <div>
                 <div className="flex items-center">
                   <img src="/home/check.png" className="h-10 lg:h-14 mr-4" />
@@ -71,11 +72,11 @@ export default function WorldClassInnovation() {
                   Energy capacity: 154Wh (3.7V/41600mAh); Lithium-ion cell
                 </p>
               </div>
-              <div className="absolute -top-5 -right-5 rounded-lg bg-[white] shadow-md p-2">
+              <div className="absolute -top-3 md:-top-5 -right-3 md:-right-5 rounded-lg bg-[white] shadow-md p-2">
                 <div className="rounded-lg bg-[#CEE7D8]">
                   <img
                     src="/home/wowEyes.png"
-                    className="h-16 w-16 rounded-sm"
+                    className="h-12 md:h-16 w-12 md:w-16 rounded-sm"
                   />
                 </div>
               </div>

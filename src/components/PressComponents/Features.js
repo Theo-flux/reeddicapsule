@@ -1,6 +1,6 @@
 import React from 'react';
 import ArticleCard from './ArticleCard';
-import { features } from '../../constants'
+import { features } from '../../utils/constants'
 
 export default function Features(){
   return(

@@ -51,7 +51,7 @@ export default function Navbar() {
     <div
       className={`${
         mobileOpen ? "bg-[white]" : "cstm-bg-green-gradient"
-      } fixed w-full z-10`}
+      } fixed w-full z-30`}
     >
       <div className="w-11/12 max-w-7xl mx-auto px-2 sm:px-6 lg:px-8">
         <div className="relative flex items-center justify-end sm:justify-between h-16">
