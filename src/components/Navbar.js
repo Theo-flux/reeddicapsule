@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 import { Fragment } from "react";
 import { Menu, Transition, Disclosure } from "@headlessui/react";
-import { margin } from "tailwindcss/defaultTheme";
+
+const isBrowser = () => typeof window !== "undefined";
 
 const navigation = [
   {
@@ -22,8 +23,8 @@ const navigation = [
       },
     ],
   },
-  { name: "About", href: "#", menu: false },
-  { name: "Contact", href: "#", menu: false },
+  { name: "About", href: "/about", menu: false },
+  { name: "Contact", href: "#contact", menu: false },
   {
     name: "Learn",
     href: "/ambassador",
@@ -37,7 +38,7 @@ const navigation = [
     //   },
     // ],
   },
-  { name: "Blog", href: "#", menu: false },
+  { name: "Press", href: "/press", menu: false },
 ];
 
 function classNames(...classes) {
@@ -45,13 +46,13 @@ function classNames(...classes) {
 }
 
 export default function Navbar() {
-  const [mobileOpen, setMobileOpen] = useState(true);
+  const [mobileOpen, setMobileOpen] = useState(false);
 
   return (
     <div
       className={`${
         mobileOpen ? "bg-[white]" : "cstm-bg-green-gradient"
-      } fixed w-full z-10`}
+      } fixed w-full z-30`}
     >
       <div className=" w-11/12 mx-auto px-2 sm:px-6 lg:px-8 max-w-7xl">
         <div className="relative flex items-center justify-end sm:justify-between h-16">
@@ -128,14 +129,14 @@ export function MobileNav({ open, setOpen }) {
                 key={item.name}
                 to={item.href}
                 className={classNames(
-                  window.location.pathname.includes(item.href)
+                  isBrowser() && window.location.pathname.includes(item.href)
                     ? "text-cstm-green"
                     : "text-[black] hover:text-[gray] hover:text-white",
                   "px-3 pt-2 pb-1 rounded-md text-sm w-11/12"
                 )}
                 style={{ marginLeft: "2vw" }}
                 aria-current={
-                  window.location.pathname.includes(item.href)
+                  isBrowser() && window.location.pathname.includes(item.href)
                     ? "page"
                     : undefined
                 }
@@ -214,21 +215,29 @@ export function MobileNav({ open, setOpen }) {
 }
 
 export function FullNav() {
+  const noContactSection = isBrowser()
+    ? window.location.pathname.includes("ambassador") ||
+      window.location.pathname.includes("press")
+    : null;
+  console.log(noContactSection);
   return (
-    <div className="hidden sm:flex justify-end lg:justify-center w-full mx-auto">
+    <div className="hidden sm:flex justify-end lg:mr-10 w-full mx-auto">
       <div className="flex space-x-2 lg:space-x-10">
         {navigation.map((item) => (
           <Link
             key={item.name}
             to={item.href}
             className={classNames(
-              window.location.pathname.includes(item.href)
+              isBrowser() && window.location.pathname.includes(item.href)
                 ? "text-cstm-green"
                 : "text-[black] hover:text-[gray] hover:text-white",
-              "px-3 pt-2 pb-1 rounded-md text-sm"
+              "px-3 pt-2 pb-1 rounded-md text-sm",
+              noContactSection && item.name === "Contact" ? "hidden" : ""
             )}
             aria-current={
-              window.location.pathname.includes(item.href) ? "page" : undefined
+              isBrowser() && window.location.pathname.includes(item.href)
+                ? "page"
+                : undefined
             }
           >
             {item.menu ? (

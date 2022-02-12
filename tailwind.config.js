@@ -22,6 +22,9 @@ module.exports = {
       fontFamily: {
         matter: ["Matter", ...defaultTheme.fontFamily.serif],
       },
+      boxShadow: {
+        "cstm-2xl": "0 5px 15px -4px rgba(8,160,92,0.95)",
+      },
     },
   },
   plugins: [],

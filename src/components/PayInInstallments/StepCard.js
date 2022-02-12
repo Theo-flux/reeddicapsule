@@ -24,12 +24,9 @@ export default function StepCard({ step }) {
         </ul>
       </div>
 
-      <div className=' md:w-[35%]'>
-        <img className='w-full' src={image} alt={`step-${id}`}/>
+      <div className=" md:w-[35%]">
+        <img className="w-full" src={image} alt={`step-${id}`} />
       </div>
-
     </div>
   );
 }
-
-
