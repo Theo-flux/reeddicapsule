@@ -1,10 +1,11 @@
-import React, { Fragment } from "react";
+import React, { Fragment, useEffect } from "react";
 import { Helmet } from "react-helmet";
 import { Navbar, Footer } from "../components";
 
 export default function Layout({ children }) {
+
   return (
-    <Fragment>
+    <div className="scroll-smooth">
       <Helmet>
         <title>Reeddi</title>
       </Helmet>
@@ -14,6 +15,6 @@ export default function Layout({ children }) {
         {children}
         <Footer />
       </div>
-    </Fragment>
+    </div>
   );
 }

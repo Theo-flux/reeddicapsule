@@ -1,9 +1,8 @@
-import React from 'react';
-import { Link } from 'gatsby';
-import '../assets/css/reeddi.css'
+import React from "react";
+import { Link } from "gatsby";
+import "../assets/css/reeddi.css";
 
 export default function Footer() {
-
   return (
     <footer>
       <div className="w-11/12 mx-auto my-16 flex flex-col gap-y-16 max-w-7xl">
@@ -36,7 +35,9 @@ export default function Footer() {
             </p>
             <div className="text-sm text-reeddigrey ">
               <p>Reeddi capsule</p>
-              <p>TempOwn</p>
+              <Link to="http://tempown.com/" className="block">
+                TempOwn
+              </Link>
             </div>
           </div>
 
@@ -45,8 +46,12 @@ export default function Footer() {
               <b>The Company</b>
             </p>
             <div className="text-sm text-reeddigrey ">
-              <p>About</p>
-              <p>Awards & Impact</p>
+              <Link to="/about" className="block">
+                About
+              </Link>
+              <Link to="/awards" className="block">
+                Awards & Impact
+              </Link>
             </div>
           </div>
 
@@ -55,8 +60,12 @@ export default function Footer() {
               <b>Learn</b>
             </p>
             <div className="text-sm text-reeddigrey ">
-              <p>How it works</p>
-              <p>Research</p>
+              <Link to="/pay-in-installments" className="block">
+                How it works
+              </Link>
+              <Link to="/research" className="block">
+                Research
+              </Link>
             </div>
           </div>
 
@@ -93,21 +102,21 @@ export default function Footer() {
           <p className="text-sm">2021 Reedd Inc. All Rights Reserved</p>
 
           <div className="flex justify-between items-center gap-x-4 text-sm">
-            <Link to="/terms-of-service">Terms of service</Link>
+            <Link to="/terms-of-use">Terms of service</Link>
             <Link to="/policies">Policies</Link>
           </div>
 
           <div className="flex justify-between items-center gap-x-8">
-            <Link to="twitter">
+            <Link to="https://twitter.com/Reeddi">
               <img src="/icons/twitter.svg" alt="twitter" />
             </Link>
-            <Link to="facebook">
+            <Link to="https://www.facebook.com/Reeddi/">
               <img src="/icons/facebook.svg" alt="facebook" />
             </Link>
-            <Link to="insta">
+            <Link to="https://www.instagram.com/reeddihq/">
               <img src="/icons/insta.svg" alt="insta" />
             </Link>
-            <Link to="youtube">
+            <Link to="https://www.youtube.com/channel/UCdBac6w8Yo4c8r9TB74mNvg">
               <img src="/icons/youtube.svg" alt="youtube" />
             </Link>
           </div>

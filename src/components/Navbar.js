@@ -23,8 +23,8 @@ const navigation = [
       },
     ],
   },
-  { name: "About", href: "#", menu: false },
-  { name: "Contact", href: "#", menu: false },
+  { name: "About", href: "/about", menu: false },
+  { name: "Contact", href: "#contact", menu: false },
   {
     name: "Learn",
     href: "/ambassador",
@@ -38,7 +38,7 @@ const navigation = [
     //   },
     // ],
   },
-  { name: "Blog", href: "#", menu: false },
+  { name: "Press", href: "/press", menu: false },
 ];
 
 function classNames(...classes) {
@@ -215,6 +215,11 @@ export function MobileNav({ open, setOpen }) {
 }
 
 export function FullNav() {
+  const noContactSection = isBrowser()
+    ? window.location.pathname.includes("ambassador") ||
+      window.location.pathname.includes("press")
+    : null;
+  console.log(noContactSection);
   return (
     <div className="hidden sm:flex justify-end lg:mr-10 w-full mx-auto">
       <div className="flex space-x-2 lg:space-x-10">
@@ -226,7 +231,8 @@ export function FullNav() {
               isBrowser() && window.location.pathname.includes(item.href)
                 ? "text-cstm-green"
                 : "text-[black] hover:text-[gray] hover:text-white",
-              "px-3 pt-2 pb-1 rounded-md text-sm"
+              "px-3 pt-2 pb-1 rounded-md text-sm",
+              noContactSection && item.name === "Contact" ? "hidden" : ""
             )}
             aria-current={
               isBrowser() && window.location.pathname.includes(item.href)

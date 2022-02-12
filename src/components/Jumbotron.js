@@ -3,7 +3,7 @@ import Tag from './Tag';
 
 export default function Jumbotron({btn, title, subTitle}) {
   return(
-    <main className='h-screen md:pt-20 h-[80%] bg-cover bg-center' style={{ backgroundImage:`url(/terms/bg-terms.svg)` }}>
+    <main className='h-screen md:pt-20 md:h-[80%] bg-cover bg-center' style={{ backgroundImage:`url(/terms/bg-terms.svg)` }}>
       <div className='w-11/12 m-auto py-16 max-w-7xl'>
         <div className='w-full font-matter flex flex-col justify-center items-center gap-y-2 md:gap-y-4'>
             <Tag text={ btn } />
