@@ -1,5 +1,4 @@
 import React from 'react';
-import parse from 'html-react-parser'
 
 
 export default function StepCard({ step }) {
@@ -18,7 +17,7 @@ export default function StepCard({ step }) {
           {
             steps.map((item) => {
               return(
-                <>{parse(item)}</>
+                <>{item}</>
               )
             })
           }
