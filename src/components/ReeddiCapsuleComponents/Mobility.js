@@ -7,7 +7,7 @@ export default function Mobility(){
                 <div className='flex flex-col justify-center items-center gap-y-16 md:flex-row justify-between items-center gap-x-16'>
                     <div className='font-matter flex flex-col gap-y-4 max-w-[450px]'>
                         <h3 className='text-left text-3xl font-bold md:text-4xl lg:text-5xl'>Built for Mobilty</h3>
-                        <p className='text-left text-cstm-grey text-sm '>Due to its portability, it's easy to throw into minibags and carry anywhere without having to worry.</p>
+                        <p className='text-left text-cstm-grey text-sm'>Due to its portability, it's easy to throw into minibags and carry anywhere without having to worry.</p>
                     </div>
 
                     <div className='w-full md:w-[40%]'>
