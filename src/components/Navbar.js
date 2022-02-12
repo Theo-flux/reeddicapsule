@@ -8,7 +8,7 @@ const isBrowser = () => typeof window !== "undefined";
 const navigation = [
   {
     name: "Products",
-    href: "#",
+    href: undefined,
     menu: true,
     menuItems: [
       {
