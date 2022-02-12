@@ -1,8 +1,12 @@
-import React, { useState } from "react";
+import React, { useEffect, useRef, useState } from "react";
 import Pin from "./Pin";
 
 export default function Hero() {
+  const image = useRef();
   const [imageLoad, setimageLoad] = useState(false);
+  useEffect(() => {
+    if (image.current.complete) setimageLoad(true);
+  }, []);
   return (
     <div className="flex flex-col items-center justify-center cstm-bg-green-gradient pt-28">
       <div className="w-11/12 max-w-7xl mx-auto flex flex-col items-center ">
@@ -18,6 +22,7 @@ export default function Hero() {
         </div>
         <div className="py-12 md:py-24 relative">
           <img
+            ref={image}
             className="w-full"
             alt=""
             src="home/map1.jpg"
