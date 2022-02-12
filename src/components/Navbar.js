@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { Link } from "gatsby";
 import { Fragment } from "react";
 import { Menu, Transition, Disclosure } from "@headlessui/react";
-import { margin } from "tailwindcss/defaultTheme";
+
+const isBrowser = () => typeof window !== "undefined";
 
 const navigation = [
   {
@@ -128,14 +129,14 @@ export function MobileNav({ open, setOpen }) {
                 key={item.name}
                 to={item.href}
                 className={classNames(
-                  window.location.pathname.includes(item.href)
+                  isBrowser() && window.location.pathname.includes(item.href)
                     ? "text-cstm-green"
                     : "text-[black] hover:text-[gray] hover:text-white",
                   "px-3 pt-2 pb-1 rounded-md text-sm w-11/12"
                 )}
                 style={{ marginLeft: "2vw" }}
                 aria-current={
-                  window.location.pathname.includes(item.href)
+                  isBrowser() && window.location.pathname.includes(item.href)
                     ? "page"
                     : undefined
                 }
@@ -222,13 +223,15 @@ export function FullNav() {
             key={item.name}
             to={item.href}
             className={classNames(
-              window.location.pathname.includes(item.href)
+              isBrowser() && window.location.pathname.includes(item.href)
                 ? "text-cstm-green"
                 : "text-[black] hover:text-[gray] hover:text-white",
               "px-3 pt-2 pb-1 rounded-md text-sm"
             )}
             aria-current={
-              window.location.pathname.includes(item.href) ? "page" : undefined
+              isBrowser() && window.location.pathname.includes(item.href)
+                ? "page"
+                : undefined
             }
           >
             {item.menu ? (
