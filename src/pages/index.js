@@ -1,17 +1,8 @@
 import React from "react";
-import ClimateTech from "../components/HomeComponents/ClimateTech";
-import Hero from "../components/HomeComponents/Hero";
-import SupportedBy from "../components/HomeComponents/SupportedBy";
-import WorldClassInnovation from "../components/WorldClassInnovation";
-import Layout from "../containers/Layout"
+import Home from "./home";
 
-export default function Home(){
-  return(
-    <Layout>
-      <Hero />
-      <SupportedBy />
-      <ClimateTech />
-      <WorldClassInnovation />
-     </Layout>
-  )
+export default function App() {
+  return (
+    <Home />
+  );
 }
