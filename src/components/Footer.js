@@ -9,7 +9,7 @@ export default function Footer() {
         <div className="flex flex-col flex-wrap gap-10 font-matter sm:flex-row justify-between gap-x-16">
           <div className="bg-white flex flex-col gap-y-4 max-w-[380px] sm:max-w-2xl sm:w-[640px] md:max-w-3xl md:w-[768px] lg:max-w-7xl lg:w-[1020px] xl:max-w-[380px] lg:gap-y-4">
             <div>
-              <img src="/Reeddi.png" alt="reeddi" />
+              <img src="/reeddi.svg" alt="reeddi" />
             </div>
 
             <div className="flex flex-col gap-y-8">

@@ -21,10 +21,11 @@ module.exports = {
     extend: {
       fontFamily: {
         matter: ["Matter", ...defaultTheme.fontFamily.serif],
+        sans: ["Matter", ...defaultTheme.fontFamily.serif],
       },
       boxShadow: {
         "cstm-2xl":
-          "box-shadow: 0px 17.29032325744629px 25.935483932495117px 0px #08A05C26",
+          "0px 17.29032325744629px 25.935483932495117px 0px #08A05C26",
       },
     },
   },
