@@ -51,7 +51,7 @@ export default function WorldClassInnovation() {
                 className="h-64 md:h-72 lg:h-96  xl:h-[480px]"
               />
             </div>
-            <div className="absolute left-0 md:left-5 xl:left-0 -bottom-4 md:bottom-5 lg:bottom-0 z-20 max-w-[280px] md:max-w-[300px] lg:max-w-sm py-3 lg:py-6 px-4 lg:px-8 bg-[white] shadow-cstm-2xl rounded-lg my-0 md:my-20">
+            <div className="absolute left-0 md:left-5 xl:left-0 -bottom-4 md:bottom-5 lg:bottom-3 z-20 max-w-[280px] md:max-w-[300px] lg:max-w-sm py-3 lg:py-6 px-4 lg:px-8 bg-[white] shadow-cstm-2xl rounded-lg my-0 md:my-20">
               <div>
                 <div className="flex items-center">
                   <img src="/home/check.png" className="h-10 lg:h-14 mr-4" />

@@ -14,18 +14,18 @@ export default function Hero() {
           <h1 className="text-2xl lg:text-5xl md:text-center font-semibold leading-tight">
             Bridging the Accessibility Gap Through Sustainable Infrastructure
           </h1>
-          <p className="text-sm md:text-center text-cstm-grey mt-10 px-0 md:px-16 lg:px-24">
+          <p className="text-base md:text-center text-cstm-grey mt-10 px-0 md:px-16 lg:px-24">
             Reeddi innovatively provides clean energy and allied innovations at
             a price point that individuals and businesses operating in
             energy-poor regions of the world can afford.
           </p>
         </div>
-        <div className="py-12 md:py-24 relative">
+        <div className="py-12 md:py-20 relative">
           <img
             ref={image}
             className="w-full"
             alt=""
-            src="home/map1.jpg"
+            src="home/mapbase.svg"
             onLoad={() => setimageLoad(true)}
           />
           {imageLoad && (

@@ -61,7 +61,7 @@ export default function Navbar() {
               to="/"
               className="absolute inset-y-0 left-0 flex-shrink-0 flex items-center"
             >
-              <img className="block w-auto" src="/Reeddi.png" alt="Workflow" />
+              <img className="block w-auto" src="/reeddi.svg" alt="Workflow" />
             </Link>
             <FullNav />
           </div>
