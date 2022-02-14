@@ -17,7 +17,7 @@ const navigation = [
         img: "/navbar/reeddi_menu.png",
       },
       {
-        name: "Reeddi Marketplace",
+        name: "Rental Marketplace",
         desc: "Own anything temporarily",
         img: "/navbar/tempown_menu.png",
       },
