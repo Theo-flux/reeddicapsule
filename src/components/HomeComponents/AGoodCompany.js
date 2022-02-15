@@ -23,7 +23,7 @@ export default function AGoodCompany() {
       {/* bottom */}
       <div className="flex w-full md:w-11/12 max-w-7xl flex-col md:flex-row mx-auto py-10 md:py-16 lg:py-32">
         <div className="w-full cstm-good-company-gradient rounded-lg flex flex-col-reverse md:flex-row items-center md:justify-between">
-          <div className="w-11/12 md:w-full flex flex-col items-center md:items-start px-5 md:px-10 lg:px-20 xl:px-36">
+          <div className="w-11/12 md:w-full flex flex-col items-center md:items-start px-5 md:px-10 lg:px-20">
             <p className="text-sm xl:text-base text-center md:text-left text-cstm-grey mt-14 max-w-[250px] lg:max-w-none">
               Across our innovations, our activities, till date, have offset
             </p>
