@@ -65,7 +65,7 @@ export default function SupportedBy() {
           </div>
           <div className="w-11/12 flex my-3 justify-between ">
             {supportedByMap.slice(4,8).map((e) => (
-              <a key={e.name} href={e.link}>
+              <a key={e.name} href={e.link} className="flex justify-center items-center">
                 <img alt={e.name} src={e.logo} className="w-14 lg:w-20" />
               </a>
             ))}

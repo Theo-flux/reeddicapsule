@@ -84,6 +84,12 @@
   -o-animation-timing-function: linear;
   animation-timing-function: linear;
 }
+.three-line-clip{
+    display: -webkit-box;
+    -webkit-line-clamp: 3;
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+}
 
 @-webkit-keyframes rotate {
   from {
