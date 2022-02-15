@@ -18,7 +18,7 @@
     "@headlessui/react": "^1.4.3",
     "gatsby": "^4.5.4",
     "gatsby-plugin-breakpoints": "^1.3.6",
-    "gatsby-plugin-manifest": "^4.6.0",
+    "gatsby-plugin-manifest": "^4.7.0",
     "gatsby-plugin-react-helmet": "^5.5.0",
     "kill-port": "^1.6.1",
     "react": "^17.0.1",

@@ -8,7 +8,7 @@ const isBrowser = () => typeof window !== "undefined";
 const navigation = [
   {
     name: "Products",
-    href: "#",
+    href: undefined,
     menu: true,
     menuItems: [
       {
@@ -17,7 +17,7 @@ const navigation = [
         img: "/navbar/reeddi_menu.png",
       },
       {
-        name: "Reeddi Marketplace",
+        name: "Rental Marketplace",
         desc: "Own anything temporarily",
         img: "/navbar/tempown_menu.png",
       },
@@ -54,14 +54,14 @@ export default function Navbar() {
         mobileOpen ? "bg-[white]" : "cstm-bg-green-gradient"
       } fixed w-full z-30`}
     >
-      <div className=" w-11/12 mx-auto px-2 sm:px-6 lg:px-8 max-w-7xl">
+      <div className="w-11/12 max-w-7xl mx-auto">
         <div className="relative flex items-center justify-end sm:justify-between h-16">
           <div className="flex-1 flex items-center justify-between sm:items-stretch">
             <Link
               to="/"
               className="absolute inset-y-0 left-0 flex-shrink-0 flex items-center"
             >
-              <img className="block w-auto" src="/Reeddi.png" alt="Workflow" />
+              <img className="block w-auto" src="/reeddi.svg" alt="Workflow" />
             </Link>
             <FullNav />
           </div>

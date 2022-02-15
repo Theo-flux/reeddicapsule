@@ -1,7 +1,10 @@
 import React from "react";
+import useWindowSize from "../../utils/useWindowSize";
+import RotaingTimeMagazine from "../RotaingTimeMagazine";
 import Star from "../Star";
 
 export default function NeverRunOutOfElectricity() {
+  const {width} = useWindowSize()
   return (
     <div className="flex flex-col md:flex-row w-11/12 max-w-7xl mx-auto py-10 pb-24 md:py-16 lg:py-32">
       <div className="w-full md:w-2/6 lg:w-1/2 flex flex-col justify-center ">
@@ -20,11 +23,15 @@ export default function NeverRunOutOfElectricity() {
           Get the Reeddi capsule
         </a>
       </div>
-      <div className="w-full md:w-4/6 lg:w-1/2 mt-10 md:mt-0  flex items-center justify-center md:justify-start">
-        <img
-          src="/home/timeMag2021.png"
-          className="hidden md:block w-32 mr-16 my-8 self-end"
-        />
+      <div className="w-full relative md:w-4/6 lg:w-1/2 mt-10 md:mt-0  flex items-center justify-center md:justify-end">
+        <div
+          className={`absolute -bottom-36 -left-24 ${width < 986 ? "hidden": ""} ${
+            width < 1280 && width > 1185 ? "lg:-left-40" : "lg:-left-56"
+          } xl:-left-[270px] z-20`}
+        >
+          <RotaingTimeMagazine />
+        </div>
+
         <div className="relative">
           <img
             src="/home/personWithLaptop.jpg"
