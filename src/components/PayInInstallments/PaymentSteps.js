@@ -17,8 +17,8 @@ const paymentSteps = [
     image: '/pii/phone.png',
     caption: 'Grab a Carbon Zero account',
     steps: [
-      <li>Have a <strong className="text-cstm-green">Carbon account</strong>. (Download the <a href="#" className="text-cstm-green">Carbon app</a> and <strong className="text-cstm-green">register</strong> to get this if you currently do not have one).</li>,
-      <li>Ensure your account has been upgraded to KYC level 2. <a href="#" className="text-cstm-green font-bold\">Click here</a> to find out how to do so.</li>,
+      <li>Have a <strong className="text-cstm-green">Carbon account</strong>. (Download the <a href="#" className="text-cstm-green"><strong>Carbon app</strong></a> and <strong className="text-cstm-green">register</strong> to get this if you currently do not have one).</li>,
+      <li>Ensure your account has been upgraded to KYC level 2. <a href="#" className="text-cstm-green font-bold\"><strong>Click here</strong></a> to find out how to do so.</li>,
       <li>Do not have any active or outstanding loans with Carbon.</li>
     ]
   },

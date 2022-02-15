@@ -5,7 +5,7 @@ export default function Terms() {
       <section>
         <div className='w-11/12 mx-auto my-16 max-w-7xl'>
             <div className='flex flex-col justify-center items-center gap-y-16 font-matter'>
-              <div className='w-[60%] text-sm text-cstm-grey flex flex-col md:text-base gap-y-4'>
+              <div className='w-full text-sm text-cstm-grey flex flex-col md:text-base gap-y-4 md:w-[60%]'>
                 <p>
                 Welcome to Reeddi Technologies limited, a platform that bridges the accessibility gap through sustainable and innovative solutions. 
                 </p>
@@ -32,7 +32,7 @@ export default function Terms() {
                 </p>
               </div>
 
-              <div className='w-[60%] text-sm text-cstm-grey flex flex-col md:text-base gap-y-4'>
+              <div className='w-full text-sm text-cstm-grey flex flex-col md:text-base gap-y-4 md:w-[60%]'>
                 <h3 className='text-2xl font-bold text-[#000]'>Acknowledgment</h3>
 
                 <p>
@@ -61,7 +61,7 @@ export default function Terms() {
                 </p>
               </div>
 
-              <div className='w-[60%] text-sm text-cstm-grey flex flex-col md:text-base gap-y-4'>
+              <div className='w-full text-sm text-cstm-grey flex flex-col md:text-base gap-y-4 md:w-[60%]'>
                 <h3 className='text-2xl font-bold text-[#000]'>Conduct</h3>
 
                 <p>
@@ -138,7 +138,7 @@ export default function Terms() {
                 </p>
               </div>
 
-              <div className='w-[60%] text-sm text-cstm-grey flex flex-col md:text-base gap-y-4'>
+              <div className='w-full text-sm text-cstm-grey flex flex-col md:text-base gap-y-4 md:w-[60%]'>
                 <h3 className='text-2xl font-bold text-[#000]'>Links to Other Websites</h3>
 
                 <p>
@@ -155,7 +155,7 @@ export default function Terms() {
 
               </div>
 
-              <div className='w-[60%] text-sm text-cstm-grey flex flex-col md:text-base gap-y-4'>
+              <div className='w-full text-sm text-cstm-grey flex flex-col md:text-base gap-y-4 md:w-[60%]'>
                 <h3 className='text-2xl font-bold text-[#000]'>Termination</h3>
 
                 <p>
@@ -168,7 +168,7 @@ export default function Terms() {
 
               </div>
 
-              <div className='w-[60%] text-sm text-cstm-grey flex flex-col md:text-base gap-y-4'>
+              <div className='w-full text-sm text-cstm-grey flex flex-col md:text-base gap-y-4 md:w-[60%]'>
                 <h3 className='text-2xl font-bold text-[#000]'>Limitation of Liability</h3>
 
                 <p>
@@ -181,7 +181,7 @@ export default function Terms() {
                 
               </div>
 
-              <div className='w-[60%] text-sm text-cstm-grey flex flex-col md:text-base gap-y-4'>
+              <div className='w-full text-sm text-cstm-grey flex flex-col md:text-base gap-y-4 md:w-[60%]'>
                 <h3 className='text-2xl font-bold text-[#000]'>Disputes Resolution</h3>
 
                 <p>
@@ -191,7 +191,7 @@ export default function Terms() {
                 
               </div>
 
-              <div className='w-[60%] text-sm text-cstm-grey flex flex-col md:text-base gap-y-4'>
+              <div className='w-full text-sm text-cstm-grey flex flex-col md:text-base gap-y-4 md:w-[60%]'>
                 <h3 className='text-2xl font-bold text-[#000]'>Changes to These terms of service</h3>
 
                 <p>
@@ -210,7 +210,7 @@ export default function Terms() {
                 
               </div>
 
-              <div className='w-[60%] text-sm text-cstm-grey flex flex-col md:text-base gap-y-4'>
+              <div className='w-full text-sm text-cstm-grey flex flex-col md:text-base gap-y-4 md:w-[60%]'>
                 <h3 className='text-2xl font-bold text-[#000]'>Contact Us</h3>
 
                 <p>

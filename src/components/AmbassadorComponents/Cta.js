@@ -15,8 +15,8 @@ export default function Cta(){
                         <Link to='./' className='py-2 px-4 w-fit bg-[#fff] text-cstm-green rounded hover:shadow-lg'>sign up</Link>
                     </div>
 
-                    <div className='overflow-hidden min-h-auto sm:w-[60%] min-h-48 md:w-[45%]'>
-                        <img className='w-full object-fill' src='/ambassador/models.png' alt='models'/>
+                    <div className='overflow-hidden min-h-auto sm:w-[60%] md:w-[45%]'>
+                        <img className='w-full object-cover' src='/ambassador/models.png' alt='models'/>
                     </div>
 
                 </div>
